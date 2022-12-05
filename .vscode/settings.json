@@ -1,0 +1,23 @@
+{
+    "files.exclude": {
+        ".git/": true,
+        ".github/": true,
+        ".vscode/": true,
+        ".yarn/": true,
+        "dist/": true,
+        "node_modules/": true
+    },
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[svelte]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "svelte.plugin.svelte.compilerWarnings": {
+        "unused-export-let": "ignore",
+        "a11y-click-events-have-key-events": "ignore"
+    }
+}
